@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic-Tac-Toe Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Player input screen -->
+  <div class="start-container">
+    <h1>🎮 Tic Tac Toe</h1>
+    <input type="text" id="player1" placeholder="Enter Player 1 (O)">
+    <input type="text" id="player2" placeholder="Enter Player 2 (X)">
+    <button id="start-btn">Start Game</button>
+  </div>
+
+  <!-- Game screen -->
+  <div class="msg-container hide">
+    <p id="msg">Winner</p>
+    <button id="new-btn">New Game</button>
+  </div>
+
+  <main class="hide" id="game-board">
+    <h2 id="turn-msg">Player O’s Turn</h2>
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+    <button id="reset-btn">Reset Game</button>
+  </main>
+  <!-- singnature -->
+  <div class="sign">
+    <marquee behavior="" direction="">© TIK TAC TOE 2026, Developed by Shubham Pandey. All Rights Reserved.</marquee>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
